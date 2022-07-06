@@ -20,6 +20,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flake8
+        pip install pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
@@ -29,3 +30,6 @@ jobs:
         flake8 . --count --exit-zero --max-line-length=80 --ignore=E111,E121,E126 --statistics
     - name: Run
       run: python check_limits.py
+    
+    - name: RunTests
+      run: pytest --junitxml=test-report.xml 
