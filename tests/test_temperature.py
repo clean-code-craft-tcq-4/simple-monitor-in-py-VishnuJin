@@ -17,6 +17,7 @@ def test_high_temperature():
 def test_normal_temperature():
     assert Temperature(30).is_normal() == True
 
+
 def test_treatment_for_high_temperature():
     assert Temperature(60).provide_treatment() == True
 
