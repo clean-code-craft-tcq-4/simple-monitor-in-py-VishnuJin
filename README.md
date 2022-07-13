@@ -1,3 +1,10 @@
+# Implemented below 2 featured for Extending and Refactoring assignment
+## Extension 1: Early Warning
+## Extension 3: Accept input in different units
+
+<br />
+<br />
+
 # Programming Paradigms
 
 Electric Vehicles have BMS - Battery Management Systems

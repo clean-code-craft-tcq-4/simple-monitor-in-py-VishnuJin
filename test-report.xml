@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+    <testsuite name="pytest" errors="0" failures="0" skipped="0" tests="30" time="0.069" timestamp="2022-07-13T18:29:33.487426" hostname="KOR-C-000C8">
+        <testcase classname="tests.test_charge_rate" name="test_low_charge_rate" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_high_charge_rate" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_normal_charge_rate" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_treatment_for_normal_charge_rate" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_treatment_for_high_charge_rate" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_treatment_for_low_charge_rate" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_warning_peak_tolerance" time="0.001" />
+        <testcase classname="tests.test_charge_rate" name="test_warning_tolerance_breach" time="0.001" />
+        <testcase classname="tests.test_measurement_conversion" name="test_fahrenheit_to_celcius" time="0.000" />
+        <testcase classname="tests.test_measurement_conversion" name="test_celcius_to_fahrenheit" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_low_state_of_charge" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_high_state_of_charge" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_normal_state_of_charge" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_treatment_for_high_state_of_charge" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_treatment_for_normal_state_of_charge" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_treatment_for_low_state_of_charge" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_warning_low_tolerance" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_warning_peak_tolerance" time="0.001" />
+        <testcase classname="tests.test_state_of_charge" name="test_warning_tolerance_breach" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_low_temperature" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_high_temperature" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_normal_temperature" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_treatment_for_high_temperature" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_treatment_for_normal_temperature" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_treatment_for_low_temperature" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_warning_low_tolerance" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_warning_peak_tolerance" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_warning_tolerance_breach" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_high_temperature_with_fahrenheit" time="0.001" />
+        <testcase classname="tests.test_temperature" name="test_low_temperature_with_fahrenheit" time="0.001" />
+    </testsuite>
+</testsuites>
